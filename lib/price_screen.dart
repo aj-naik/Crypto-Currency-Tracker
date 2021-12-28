@@ -10,6 +10,7 @@ class _PriceScreenState extends State<PriceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.lightBlue,
         title: Text('🤑 Coin Ticker'),
       ),
       body: Column(
